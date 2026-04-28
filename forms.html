@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form In HTML</title>
+</head>
+<body>
+   <h2>Forms In HTML:</h2> 
+   <form action="image.html">
+   <p>First Name:</p>
+    <input type="text"  minlength="5" maxlength="12" required ">
+
+    <label for="">Middle Name:</label>
+    <input type="text" placeholder="pls enter middle name "> 
+
+    <label for="">Last Name:</label>
+    <input type="text">
+
+    <br><br>
+    <label for="">Age:</label>
+    <input type="number">
+   
+
+   <br><br>
+
+   <label for="">Email:</label>
+   <input type="email">
+   
+   <br><br>
+
+   <label for="">Date Of Joining</label>
+   <input type="date">
+   
+   <br><br>
+   <label for="">Password</label>
+   <input type="password">
+
+   <br><br>
+   <p>Enter Your Shirt Size:</p
+      >
+   <input type="radio" name="shirtsize" id="small">  <label for="">Small Size</label>
+   <input type="radio" name="shirtsize" id="medium" checked> <label for="">Medium Size</label>
+   <input type="radio" name="shirtsize" id="large">  <label for="">Large Size</label>
+  
+    <br><br>
+    <p>Select the Known Language</p
+   >
+   <input type="checkbox" name="Hindi" id="Hindi"> 
+   <label for="">Hindi</label>
+   <input type="checkbox" name="English" id="English" checked>
+   <label for="">English</label>
+   <input type="checkbox" name="Bhojpuri" id="Bhojpuri">  
+   <label for="">Bhojpuri</label>
+   <input type="checkbox" name="Kannada" id="Kannada">
+   <label for="">Kannada checked</label>
+   
+
+
+   <br><br>
+
+   <label for="clr">Please Select Colour Of Your Shirt </label>
+   <input type="color" id="clr">
+   
+   <br><br>
+   <label for="paymentoption">Please Select a payment Method</label>
+   <select name="payment" id="paymentoption">
+      <option value="gpay">gPay</option>
+      <option value="phonepay">PhonePay</option>
+      <option value="paytm">Paytm</option>
+      <option value="UPI">UPI</option>
+      <option value="cod">COD</option>
+   </select>
+  <br><br>
+  
+ <label for="cmts">Please provide your valueable feedback</label>
+ <!-- <input type="text"> -->
+  <textarea name="cmt" id="cmts" rows="11" cols="55" placeholder="pls enter your comment here"></textarea>
+  </form>
+
+  <br><br>
+   <input type="reset" />
+   <input type="submit">
+</body>
+</html>
