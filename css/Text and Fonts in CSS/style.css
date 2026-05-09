@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J+Guides:ital@0;1&display=swap');
+
+h1{
+        color: red;
+    background-color: darkslategray;
+    font-family: "Playwrite GB J Guides", cursive;
+}
+p{
+    text-align: justify ;
+    text-indent: 80px;
+}
